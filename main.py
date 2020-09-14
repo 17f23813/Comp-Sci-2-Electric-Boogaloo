@@ -1,4 +1,16 @@
-def welcome():
-    print("Hello world")
+from time import sleep
 
-welcome()
+def twinkle():
+  print("Twinkle, twinkle little star")
+  sleep(3)
+  print("How I wonder what you are")
+  sleep(3)
+
+def upabove():
+  print("Up above the world so high")
+  sleep(4)
+  print("Like a diamond in the sky")
+  sleep(3)
+
+twinkle()
+upabove()
